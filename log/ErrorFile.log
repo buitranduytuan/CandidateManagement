@@ -1,0 +1,20 @@
+2020-01-11 11:15:51 INFO  [main] - toErrorLog.setBirthDay:73 - java.text.ParseException: Unparseable date: "Tuan"
+2020-01-11 11:21:57 INFO  [main] - toInfoLog.setBirthDay:73 - java.text.ParseException: Unparseable date: "Tuan"
+2020-01-11 11:23:40 INFO  [main] - .setBirthDay:73 - java.text.ParseException: Unparseable date: "sdfsdfsd"
+2020-01-11 11:30:20 INFO  [main] - ErrorFile.setBirthDay:73 - java.text.ParseException: Unparseable date: "TuanBTD"
+2020-01-11 11:30:28 INFO  [main] - ErrorFile.setBirthDay:73 - java.text.ParseException: Unparseable date: "fdsfdsf"
+2020-01-11 11:30:35 ERROR [main] - ErrorFile.checkdate:50 - day2.Exception.CandidateException: Nam sinh phai nam trong khoang 1900 den nam 2020
+2020-01-11 11:31:25 INFO  [main] - ErrorFile.setBirthDay:73 - java.text.ParseException: Unparseable date: "TUNBDDDD"
+2020-01-11 11:32:58 INFO  [main] - ErrorFile.setBirthDay:73 - java.text.ParseException: Unparseable date: "sdfsdfds"
+2020-01-11 11:33:26 ERROR [main] - ErrorFile.checkdate:50 - day2.Exception.CandidateException: Nam sinh phai nam trong khoang 1900 den nam 2020
+2020-01-11 11:38:34 ERROR [main] - day2.model.Candidate.setBirthDay:73 - java.text.ParseException: Unparseable date: "TUANDDDD"
+2020-01-11 11:41:06 ERROR [main] - day2.model.Candidate.setBirthDay:73 - java.text.ParseException: Unparseable date: "TUANBTDDDDD"
+2020-01-11 20:52:25 ERROR [main] - day2.model.CandidateValiDate.enterDate:95 - java.text.ParseException: Unparseable date: "sdfsd"
+2020-01-11 20:52:30 ERROR [main] - day2.model.CandidateValiDate.enterBirthday:119 - day2.Exception.BirthDayException: Nam sinh phai nam trong khoang 1900 den nam 2020
+2020-01-11 21:02:43 ERROR [main] - day2.model.CandidateValiDate.enterDate:95 - java.text.ParseException: Unparseable date: "fsdfsd"
+2020-01-11 21:02:49 ERROR [main] - day2.model.CandidateValiDate.enterDate:95 - java.time.DateTimeException: Invalid value for MonthOfYear (valid values 1 - 12): 18
+2020-01-11 21:03:05 ERROR [main] - day2.model.CandidateValiDate.checkEmail:66 - day2.Exception.EmailException: Dinh dang email khong hop le
+2020-01-11 21:44:00 ERROR [main] - day2.DAO.CandidateDAO.updateGeneralInfo:397 - java.lang.ClassCastException: class java.util.Date cannot be cast to class java.sql.Date (java.util.Date is in module java.base of loader 'bootstrap'; java.sql.Date is in module java.sql of loader 'platform')
+2020-01-11 21:49:58 ERROR [main] - day2.model.CandidateValiDate.enterDate:114 - java.time.DateTimeException: Invalid value for MonthOfYear (valid values 1 - 12): 15
+2020-01-12 11:13:03 ERROR [main] - day2.model.CandidateValiDate.enterBirthday:135 - day2.Exception.BirthDayException: Nam sinh phai nam trong khoang 1900 den nam 2020
+2020-01-12 11:13:05 ERROR [main] - day2.model.CandidateValiDate.enterDate:112 - java.text.ParseException: Unparseable date: "sdf"

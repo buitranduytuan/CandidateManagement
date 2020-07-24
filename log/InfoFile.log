@@ -1,0 +1,81 @@
+
+2020-01-11 20:54:13 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:155 -  SELECT C.CandidateID, CandidateType, FullName, Birthday, Phone, Email, GraduationDate, GraduationRank, Education, Majors, Semester, University_name, ExpInYear, Proskill FROM Candidate C LEFT JOIN Fresher F ON C.CandidateID = F.CandidateID LEFT JOIN Intern I ON C.CandidateID = I.CandidateID LEFT JOIN Experience E ON C.CandidateID = E.CandidateID 
+2020-01-11 20:54:13 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-11 20:54:13 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-11 20:54:13 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-11 20:54:13 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-11 20:54:13 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-11 20:54:13 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-11 21:17:35 INFO  [main] - day2.DAO.CandidateDAO.insertCadidateToDBNoSql:255 - Select * FROM Candidate
+2020-01-11 21:17:35 INFO  [main] - day2.DAO.CandidateDAO.insertCadidateToDBNoSql:269 - Select * FROM Certificated
+2020-01-11 21:17:35 INFO  [main] - day2.DAO.CandidateDAO.insertCadidateToDBNoSql:295 - Select * FROM Fresher
+2020-01-11 21:26:43 INFO  [main] - day2.DAO.CandidateDAO.updateGeneralInfo:338 - Select * FROM Candidate WHERE CandidateID = ?
+2020-01-11 21:28:26 INFO  [main] - day2.DAO.CandidateDAO.updateGeneralInfo:338 - Select * FROM Candidate WHERE CandidateID = ?
+2020-01-11 21:28:47 INFO  [main] - day2.DAO.CandidateDAO.updateGeneralInfo:338 - Select * FROM Candidate WHERE CandidateID = ?
+2020-01-11 21:43:13 INFO  [main] - day2.DAO.CandidateDAO.insertCadidateToDBNoSql:255 - Select * FROM Candidate
+2020-01-11 21:43:13 INFO  [main] - day2.DAO.CandidateDAO.insertCadidateToDBNoSql:269 - Select * FROM Certificated
+2020-01-11 21:43:13 INFO  [main] - day2.DAO.CandidateDAO.insertCadidateToDBNoSql:295 - Select * FROM Fresher
+2020-01-11 21:43:50 INFO  [main] - day2.DAO.CandidateDAO.updateGeneralInfo:338 - Select * FROM Candidate WHERE CandidateID = ?
+2020-01-11 21:44:00 INFO  [main] - day2.DAO.CandidateDAO.updateInfoNoSql:415 - Select CandidateType FROM Candidate WHERE CandidateID = ?
+2020-01-11 21:44:00 INFO  [main] - day2.DAO.CandidateDAO.updateInfoNoSql:440 - Select * FROM Fresher WHERE CandidateID = ?
+2020-01-11 21:48:33 INFO  [main] - day2.DAO.CandidateDAO.updateGeneralInfo:338 - Select * FROM Candidate WHERE CandidateID = ?
+2020-01-11 21:49:19 INFO  [main] - day2.DAO.CandidateDAO.updateGeneralInfo:365 - Select * FROM Certificated WHERE CandidateID = ?
+2020-01-11 21:50:05 INFO  [main] - day2.DAO.CandidateDAO.updateInfoNoSql:415 - Select CandidateType FROM Candidate WHERE CandidateID = ?
+2020-01-11 21:50:05 INFO  [main] - day2.DAO.CandidateDAO.updateInfoNoSql:440 - Select * FROM Fresher WHERE CandidateID = ?
+2020-01-12 11:14:30 INFO  [main] - day2.DAO.CandidateDAO.insertCadidateToDBNoSql:255 - Select * FROM Candidate
+2020-01-12 11:14:30 INFO  [main] - day2.DAO.CandidateDAO.insertCadidateToDBNoSql:269 - Select * FROM Certificated
+2020-01-12 11:14:30 INFO  [main] - day2.DAO.CandidateDAO.insertCadidateToDBNoSql:295 - Select * FROM Fresher
+2020-01-12 11:15:17 INFO  [main] - day2.DAO.CandidateDAO.updateGeneralInfo:338 - Select * FROM Candidate WHERE CandidateID = ?
+2020-01-12 11:15:38 INFO  [main] - day2.DAO.CandidateDAO.updateGeneralInfo:368 - Select * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:15:59 INFO  [main] - day2.DAO.CandidateDAO.updateInfoNoSql:418 - Select CandidateType FROM Candidate WHERE CandidateID = ?
+2020-01-12 11:15:59 INFO  [main] - day2.DAO.CandidateDAO.updateInfoNoSql:443 - Select * FROM Fresher WHERE CandidateID = ?
+2020-01-12 11:17:55 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:155 -  SELECT C.CandidateID, CandidateType, FullName, Birthday, Phone, Email, GraduationDate, GraduationRank, Education, Majors, Semester, University_name, ExpInYear, Proskill FROM Candidate C LEFT JOIN Fresher F ON C.CandidateID = F.CandidateID LEFT JOIN Intern I ON C.CandidateID = I.CandidateID LEFT JOIN Experience E ON C.CandidateID = E.CandidateID 
+2020-01-12 11:17:55 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:17:55 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:17:55 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:17:55 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:17:55 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:17:55 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:17:55 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:17:55 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:17:55 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:18:39 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:155 -  SELECT C.CandidateID, CandidateType, FullName, Birthday, Phone, Email, GraduationDate, GraduationRank, Education, Majors, Semester, University_name, ExpInYear, Proskill FROM Candidate C LEFT JOIN Fresher F ON C.CandidateID = F.CandidateID LEFT JOIN Intern I ON C.CandidateID = I.CandidateID LEFT JOIN Experience E ON C.CandidateID = E.CandidateID 
+2020-01-12 11:18:39 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:18:39 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:18:39 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:18:39 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:18:39 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:18:39 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:18:39 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:18:39 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-01-12 11:18:39 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:50:55 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:155 -  SELECT C.CandidateID, CandidateType, FullName, Birthday, Phone, Email, GraduationDate, GraduationRank, Education, Majors, Semester, University_name, ExpInYear, Proskill FROM Candidate C LEFT JOIN Fresher F ON C.CandidateID = F.CandidateID LEFT JOIN Intern I ON C.CandidateID = I.CandidateID LEFT JOIN Experience E ON C.CandidateID = E.CandidateID 
+2020-03-19 22:50:56 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:50:56 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:50:56 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:50:56 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:50:56 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:50:56 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:50:56 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:50:56 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:50:56 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:52:25 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:155 -  SELECT C.CandidateID, CandidateType, FullName, Birthday, Phone, Email, GraduationDate, GraduationRank, Education, Majors, Semester, University_name, ExpInYear, Proskill FROM Candidate C LEFT JOIN Fresher F ON C.CandidateID = F.CandidateID LEFT JOIN Intern I ON C.CandidateID = I.CandidateID LEFT JOIN Experience E ON C.CandidateID = E.CandidateID 
+2020-03-19 22:52:25 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:52:25 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:52:25 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:52:25 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:52:25 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:52:25 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:52:25 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:52:25 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:52:25 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:57:01 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:155 -  SELECT C.CandidateID, CandidateType, FullName, Birthday, Phone, Email, GraduationDate, GraduationRank, Education, Majors, Semester, University_name, ExpInYear, Proskill FROM Candidate C LEFT JOIN Fresher F ON C.CandidateID = F.CandidateID LEFT JOIN Intern I ON C.CandidateID = I.CandidateID LEFT JOIN Experience E ON C.CandidateID = E.CandidateID 
+2020-03-19 22:57:01 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:57:01 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:57:01 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:57:01 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:57:01 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:57:01 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:57:01 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:57:01 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
+2020-03-19 22:57:01 INFO  [main] - day2.DAO.CandidateDAO.getListCandidateFromDB:167 - SELECT * FROM Certificated WHERE CandidateID = ?
